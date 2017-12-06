@@ -4,6 +4,9 @@ import (
 	"flag"
 	"fmt"
 	"strings"
+
+	mp "github.com/mackerelio/go-mackerel-plugin"
+	"github.com/mackerelio/golib/uptime"
 )
 
 type PassengerPlugin struct {
